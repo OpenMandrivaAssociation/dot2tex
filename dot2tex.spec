@@ -1,6 +1,6 @@
 %define name	dot2tex
 %define version 2.8.7
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Graphviz to LaTeX converter
 Name:		%{name}
@@ -14,7 +14,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	python-parsing
 Requires:	emacs-auctex
-Requires:	latex-pgf
+Requires:	texlive-texmf
 Requires:	graphviz
 %py_requires -d 
 
