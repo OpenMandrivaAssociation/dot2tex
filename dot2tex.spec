@@ -47,3 +47,19 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record
 %files -f FILE_LIST
 %defattr(-,root,root)
 %doc *.txt LICENSE doc/* examples/
+
+
+%changelog
+* Tue Dec 27 2011 Lev Givon <lev@mandriva.org> 2.8.7-3mdv2011.0
++ Revision: 745767
+- Only suggest installing texlive.
+
+* Tue Dec 27 2011 Lev Givon <lev@mandriva.org> 2.8.7-2
++ Revision: 745479
+- Update install dependency from tetex-latex to texlive-texmf.
+
+* Wed Jun 01 2011 Lev Givon <lev@mandriva.org> 2.8.7-1
++ Revision: 682247
+- import dot2tex
+
+
