@@ -3,7 +3,7 @@ Summary:	Graphviz to LaTeX converter
 
 Name:		dot2tex
 Version:	2.8.7
-Release:	4
+Release:	5
 Source0:	%{name}-%{version}.zip
 License:	MIT
 Group:		Graphics
