@@ -7,7 +7,7 @@ Release:	5
 Source0:	%{name}-%{version}.zip
 License:	MIT
 Group:		Graphics
-Url:		http://www.fauskes.net/code/dot2tex/
+Url:		https://www.fauskes.net/code/dot2tex/
 BuildArch:	noarch
 Requires:	python-parsing
 Requires:	emacs-auctex
